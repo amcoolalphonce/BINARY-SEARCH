@@ -12,4 +12,6 @@ int binarySearch(int searchvalue, vector<int> arr
         int middle = 0;
         int position = -1;
         bool found = false;
+
+        while(! found && first<=last)
 })
