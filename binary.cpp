@@ -10,4 +10,5 @@ int binarySearch(int searchvalue, vector<int> arr
         int first = 0;
         int last = (arr.size())- 1;
         int middle = 0;
+        int position = -1;
 })
