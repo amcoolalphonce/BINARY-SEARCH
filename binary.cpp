@@ -24,6 +24,9 @@ int binarySearch(int searchvalue, vector<int> arr
                         found = true;
                 }
                 else if(arr[middle] > searchvalue)
+                {
+                        
+                }
         }
 
 })
