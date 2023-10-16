@@ -17,6 +17,11 @@ int binarySearch(int searchvalue, vector<int> arr
         {
                 middle = (first + last)/2;
                 cout<<setw(3)<<first<<setw(3)<<middle<<setw(3)<<endl;
+
+                if (searchvalue == arr[middle])
+                {
+                        
+                }
         }
 
 })
