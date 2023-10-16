@@ -14,4 +14,24 @@ int binarySearch(int searchvalue, vector<int> arr
         bool found = false;
 
         while(! found && first<=last)
+        {
+                middle = (first + last)/2;
+                cout<<setw(3)<<first<<setw(3)<<middle<<setw(3)<<endl;
+
+                if (searchvalue == arr[middle])
+                {
+                        position = middle;
+                        found = true;
+                }
+                else if(arr[middle] > searchvalue)
+                {
+                        last = middle - 1;
+                }
+                else if(arr[middle] < searchvalue)
+                {
+                        first = middle + 1;
+                }
+                return position;
+        }
+
 })
