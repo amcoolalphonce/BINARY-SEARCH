@@ -31,6 +31,7 @@ int binarySearch(int searchvalue, vector<int> arr
                 {
                         first = middle + 1;
                 }
+                return position;
         }
 
 })
