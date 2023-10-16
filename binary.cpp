@@ -25,7 +25,7 @@ int binarySearch(int searchvalue, vector<int> arr
                 }
                 else if(arr[middle] > searchvalue)
                 {
-                        
+                        last = middle - 1;
                 }
         }
 
