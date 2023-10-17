@@ -4,7 +4,7 @@
 #include<algorithm>
 
 using namespace std;
-int binarySearch(int searchvalue, vector<int> arr
+int binarySearch(int searchvalue, vector<int> arr)
 {
         sort(arr.begin(), arr.end());
         int first = 0;
@@ -34,4 +34,4 @@ int binarySearch(int searchvalue, vector<int> arr
                 return position;
         }
 
-})
+}
