@@ -41,4 +41,6 @@ int main()
         int searchvalue;
         cin>>searchvalue;
         binarySearch(searchvalue, vect);
+
+        
 }
