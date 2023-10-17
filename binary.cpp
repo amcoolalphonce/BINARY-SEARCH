@@ -33,5 +33,4 @@ int binarySearch(int searchvalue, vector<int> arr)
                 }
                 return position;
         }
-
 }
