@@ -33,5 +33,15 @@ int binarySearch(int searchvalue, vector<int> arr)
                 }
                 return position;
         }
+}
+
+int main()
+{
+        vector <int> vect = {2, 4, 8, 9, 13, 17, 21, 24, 29, 33, 45, 49, 50, 67, 80, 100};
+        int searchvalue;
+        cin>>searchvalue;
+        binarySearch(searchvalue, vect);
+        
+        return 0;
 
 }
